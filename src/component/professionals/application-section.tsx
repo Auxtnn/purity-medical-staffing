@@ -33,7 +33,6 @@ const ApplicationSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Link href="/jobs">
               <Button variant="secondary" size="lg" className="font-medium">
-                <FileText size={18} className="mr-2" />
                 Browse Jobs & Apply
               </Button>
             </Link>
@@ -43,7 +42,6 @@ const ApplicationSection = () => {
                 size="lg"
                 className="border-white text-white  hover:text-primary font-medium"
               >
-                <Mail size={18} className="mr-2" />
                 Contact Our Team
               </Button>
             </Link>

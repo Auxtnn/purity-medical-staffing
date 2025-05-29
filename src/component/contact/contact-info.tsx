@@ -54,8 +54,8 @@ const ContactInfo = () => {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Our Office</h3>
-              <p className="text-gray">123 Healthcare Avenue</p>
-              <p className="text-gray">Portland, OR 97201</p>
+              <p className="text-gray">5441 S Macadam Ave </p>
+              <p className="text-gray">Ste N Portland OR 97239, USA.</p>
             </div>
           </div>
 

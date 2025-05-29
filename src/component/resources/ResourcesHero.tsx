@@ -111,12 +111,12 @@ const HeroResources = () => {
           </motion.div>
 
           <motion.h1
-            className="text-4xl md:text-5xl font-bold mb-6 text-primary"
+            className="text-4xl md:text-5xl font-bold mb-6 text-gray-900"
             variants={itemVariants}
           >
             Helpful information for
             <br />
-            <span className="text-secondary">
+            <span className="text-primary">
               healthcare facilities and professionals.
             </span>
           </motion.h1>

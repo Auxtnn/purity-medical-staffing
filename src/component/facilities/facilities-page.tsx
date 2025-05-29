@@ -15,7 +15,7 @@ const FacilitiesPage = () => {
       <QualitySection />
       <PartnerTypesSection />
       <ProcessSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
     </>
   );
 };

@@ -251,7 +251,7 @@ const SearchFilters = ({
             fullWidth
             className="flex items-center justify-center"
           >
-            <X size={16} className="mr-2" />
+            {/* <X size={16} className="mr-2" /> */}
             Reset Filters
           </Button>
         </div>

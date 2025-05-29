@@ -96,7 +96,7 @@
   transform: translateY(0);
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar with purple theme */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -106,12 +106,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #65a0c8;
+  background: #8b5cf6;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1e5e8a;
+  background: #7c3aed;
 }
 
 /* Utils for animation staggering */

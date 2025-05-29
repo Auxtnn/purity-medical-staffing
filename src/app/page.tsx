@@ -15,7 +15,7 @@ export default function Home() {
       <CoreValues />
       <ProfessionalsOverview />
       <FeaturedJobs />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Partners />
       <ContactForm />
     </>

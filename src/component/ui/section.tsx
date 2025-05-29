@@ -21,7 +21,7 @@ const Section = forwardRef<HTMLElement, SectionProps>(
   ) => {
     const bgStyles = {
       white: "bg-white",
-      light: "bg-gray-light",
+      light: "bg-primary/10",
       dark: "bg-gray-dark text-white",
       primary: "bg-primary text-white",
       accent: "bg-accent text-white",

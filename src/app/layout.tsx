@@ -3,7 +3,10 @@ import { ClientLayoutWrapper } from "@/component/LayoutWrapper";
 import { Metadata } from "next";
 import "./globals.css";
 
-const font = Space_Grotesk({ subsets: ["latin"] });
+const font = Space_Grotesk({
+  subsets: ["latin"],
+  weight: "500",
+});
 
 export const metadata: Metadata = {
   title: "Purity Medical Staffing | Building Healthier Communities",

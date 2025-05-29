@@ -111,12 +111,12 @@ const ProfessionalHero = () => {
           </motion.div>
 
           <motion.h1
-            className="text-4xl md:text-5xl font-bold mb-6 text-primary"
+            className="text-4xl md:text-5xl font-bold mb-6 text-gray-900"
             variants={itemVariants}
           >
             Advance your career with opportunities
             <br />
-            <span className="text-secondary">
+            <span className="text-primary">
               that match your goals and lifestyle.
             </span>
           </motion.h1>

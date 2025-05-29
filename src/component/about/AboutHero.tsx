@@ -96,7 +96,7 @@ const AboutServices = () => {
                       ></path>
                     </svg>
                     <span className="text-gray-500 ml-1 md:ml-2 text-sm font-medium">
-                      Services
+                      About Us
                     </span>
                   </div>
                 </li>
@@ -111,12 +111,12 @@ const AboutServices = () => {
           </motion.div>
 
           <motion.h1
-            className="text-4xl md:text-5xl font-bold mb-6 text-primary"
+            className="text-4xl md:text-5xl font-bold mb-6 text-gray-900"
             variants={itemVariants}
           >
             Building healthier communities,
             <br />
-            <span className="text-secondary">One member at a time.</span>
+            <span className="text-primary">One member at a time.</span>
           </motion.h1>
         </motion.div>
       </div>

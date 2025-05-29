@@ -12,8 +12,8 @@ const ServicesPage = () => {
       <StaffingOptionsSection />
       <ProfessionalCategoriesSection />
       <ProcessSection />
-      <TestimonialsSection />
-      <CallToActionSection />
+      {/* <TestimonialsSection /> */}
+      {/* <CallToActionSection /> */}
     </>
   );
 };

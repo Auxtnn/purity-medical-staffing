@@ -111,12 +111,12 @@ const HeroJob = () => {
           </motion.div>
 
           <motion.h1
-            className="text-4xl md:text-5xl font-bold mb-6 text-primary"
+            className="text-4xl md:text-5xl font-bold mb-6 text-gray-900"
             variants={itemVariants}
           >
             Discover career opportunities
             <br />
-            <span className="text-secondary">
+            <span className="text-primary">
               at top healthcare facilities across the country.
             </span>
           </motion.h1>

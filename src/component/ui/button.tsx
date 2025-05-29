@@ -26,21 +26,23 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) => {
     const baseStyles =
-      "btn inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary disabled:opacity-50 disabled:cursor-not-allowed";
+      "btn inline-flex items-center justify-center rounded-lg font-bold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md";
 
     const variantStyles = {
       primary:
-        "bg-primary text-white hover:bg-primary-light focus:ring-primary",
-      secondary: "bg-accent text-white hover:bg-accent-light focus:ring-accent",
+        "bg-gradient-to-r from-primary to-primary-dark text-white hover:from-primary-dark hover:to-primary hover:shadow-primary/25 focus:ring-primary border border-primary/20",
+      secondary:
+        "bg-gradient-to-r from-accent to-accent-dark text-white hover:from-accent-dark hover:to-accent hover:shadow-accent/25 focus:ring-accent border border-accent/20",
       outline:
-        "border border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary",
-      ghost: "text-primary hover:bg-gray-light focus:ring-primary",
+        "border-2 border-primary text-primary hover:bg-primary hover:text-white hover:border-primary-dark focus:ring-primary bg-transparent hover:shadow-primary/15",
+      ghost:
+        "text-primary hover:bg-primary/10 hover:text-primary-dark focus:ring-primary bg-transparent border border-transparent hover:border-primary/20",
     };
 
     const sizeStyles = {
-      sm: "h-8 px-4 py-1 text-sm",
-      md: "h-10 px-6 py-2",
-      lg: "h-12 px-8 py-3 text-base",
+      sm: "h-9 px-4 py-2 text-sm tracking-wide",
+      md: "h-11 px-6 py-2.5 text-sm tracking-wide",
+      lg: "h-13 px-8 py-3 text-base tracking-wide",
     };
 
     const widthStyles = fullWidth ? "w-full" : "";
@@ -71,7 +73,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             />
           </svg>
         )}
-        {children}
+        <span className="relative z-10">{children}</span>
       </>
     );
 

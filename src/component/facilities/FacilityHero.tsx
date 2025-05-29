@@ -111,12 +111,12 @@ const FacilityHero = () => {
           </motion.div>
 
           <motion.h1
-            className="text-4xl md:text-5xl font-bold mb-6 text-primary"
+            className="text-4xl md:text-5xl font-bold mb-6 text-gray-900"
             variants={itemVariants}
           >
             Trusted staffing solutions
             <br />
-            <span className="text-secondary">
+            <span className="text-primary">
               that support exceptional patient care.
             </span>
           </motion.h1>

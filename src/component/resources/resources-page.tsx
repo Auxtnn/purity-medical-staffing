@@ -9,7 +9,7 @@ const ResourcesPage = () => {
       <HeroResources />
       <ArticlesSection />
       <FaqSection />
-      <GuidesSection />
+      {/* <GuidesSection /> */}
     </>
   );
 };
