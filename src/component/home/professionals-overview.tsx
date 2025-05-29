@@ -19,7 +19,7 @@ const professionalTypes = [
     title: "Registered Nurses (RNs)",
     description:
       "Highly skilled and experienced professionals providing exceptional patient care across all specialties.",
-    image: "/images/3.jpg",
+    image: "/images/5.jpg",
     icon: <Stethoscope size={24} className="text-primary" />,
     credentials: ["BSN/ADN Required", "Current License", "ACLS/BLS Certified"],
   },
@@ -39,7 +39,7 @@ const professionalTypes = [
     title: "Certified Nursing Assistants (CNAs)",
     description:
       "Essential healthcare team members providing compassionate direct patient care and support.",
-    image: "/images/3.jpg",
+    image: "/images/6.jpg",
     icon: <Users2 size={24} className="text-primary" />,
     credentials: ["CNA Certification", "Background Check", "Skills Assessment"],
   },
@@ -47,7 +47,7 @@ const professionalTypes = [
     title: "Medication Aides",
     description:
       "Specialized professionals ensuring safe and accurate medication management and administration.",
-    image: "/images/3.jpg",
+    image: "/images/8.jpg",
     icon: <Award size={24} className="text-primary" />,
     credentials: [
       "Medication Certified",

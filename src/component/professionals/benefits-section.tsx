@@ -116,7 +116,7 @@ const BenefitsSection = () => {
         >
           <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/images/1.jpg"
+              src="/images/6.jpg"
               alt="Happy healthcare professional"
               fill
               className="object-cover"

@@ -32,7 +32,7 @@ const professionalCategories = [
       "Patient assessments",
       "Documentation",
     ],
-    image: "/images/1.jpg",
+    image: "/images/3.jpg",
   },
   {
     title: "Certified Nursing Assistants (CNAs)",
@@ -45,7 +45,7 @@ const professionalCategories = [
       "Comfort measures",
       "Basic care procedures",
     ],
-    image: "/images/1.jpg",
+    image: "/images/5.jpg",
   },
   {
     title: "Medication Aides",
@@ -58,7 +58,7 @@ const professionalCategories = [
       "Documentation",
       "Resident education",
     ],
-    image: "/images/1.jpg",
+    image: "/images/6.jpg",
   },
 ];
 
