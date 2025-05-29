@@ -142,9 +142,9 @@ const ServicesOverview = () => {
             <motion.div
               key={index}
               variants={statsVariants}
-              className="text-center"
+              className="text-center h-full"
             >
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300">
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 h-full flex flex-col justify-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
                   {stat.number}
                 </div>
@@ -164,9 +164,9 @@ const ServicesOverview = () => {
           animate={isInView ? "visible" : "hidden"}
         >
           {services.map((service, index) => (
-            <motion.div key={index} variants={itemVariants}>
-              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg hover:border-primary/20 transition-all duration-300 h-full group">
-                <div className="flex items-start space-x-4 mb-6">
+            <motion.div key={index} variants={itemVariants} className="h-full">
+              <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg hover:border-primary/20 transition-all duration-300 h-full group flex flex-col">
+                <div className="flex items-start space-x-4 mb-6 flex-grow">
                   <div className="flex-shrink-0 w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                     {service.icon}
                   </div>
@@ -180,7 +180,7 @@ const ServicesOverview = () => {
                   </div>
                 </div>
 
-                <div className="space-y-2">
+                <div className="space-y-2 mt-auto">
                   {service.features.map((feature, featureIndex) => (
                     <div
                       key={featureIndex}
